@@ -169,7 +169,7 @@ public class OperatorGUI extends JFrame {
         //  MODEL PATİKA LİST
 //COURSELİST*************************************************************************************************/COURSELİST
         mdl_course_list =new DefaultTableModel();
-        Object[] col_courselist={"ID","DERS ADI","PROGRAMLAMA DİLİ","PATİKA","EİTMEN"};
+        Object[] col_courselist={"ID","DERS ADI","PROGRAMLAMA DİLİ","PATİKA","EGİTMEN"};
         mdl_course_list.setColumnIdentifiers(col_courselist);
         row_course_list=new Object[col_courselist.length];
         loadCourseModel();
